@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="0dip" android:layout_gravity="top"
+    >
+    <TableRow>
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="0dip" android:layout_gravity="top"
+            >
+            <TableRow>
+                <RelativeLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/RelativeLayout01"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:padding="10dp">
+
+
+                    <TextView
+                        android:id="@+id/productView"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1" android:layout_gravity="left|center_vertical"
+                        android:textSize="20sp"
+                        android:text="Medicine"
+                        android:layout_marginTop="4dip"
+                        android:layout_span="1"
+                        />
+
+
+                </RelativeLayout>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:text="Price"
+                    android:id="@+id/priceView"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="left|center_vertical"
+
+                    android:textSize="20sp"
+                    android:layout_marginBottom="5dip"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginTop="4dip"
+                    android:gravity="left"/>
+            </TableRow>
+
+
+
+        </TableLayout>
+
+
+
+
+    </TableRow>
+</TableLayout>
